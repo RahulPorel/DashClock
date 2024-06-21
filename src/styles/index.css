@@ -8,23 +8,48 @@ body {
   overflow-y: auto;
   font-family: Lucida Grande, Arial, sans-serif;
   font-size: 12px;
-  background-color: #fff;
-  min-height: 200px;
-  min-width: 300px;
+  color: white;
+  background-color: #000000;
+  min-height: 100px;
+  min-width: 228px;
   user-select: none;
   padding: 0px;
+
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-a {
-  text-decoration: none;
+
+main {
+  margin-top: 5px;
 }
 
 #time {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 5px;
   font-size: 34px;
 }
 
-#date{
-  display: block;
+#date {
+  display: flex;
+  justify-content: center;
 }
+
+#greeting {
+  display: flex;
+  justify-content: center;
+}
+
+.toggle {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-am,
+.btn-pm {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 3px;
+  margin: 5px 0;
+}
+  
