@@ -15,6 +15,3 @@ const updateIconTime = () => {
 // Update the badge text every minute
 chrome.alarms.create("updateTime", { periodInMinutes: 1 });
 chrome.alarms.onAlarm.addListener(updateIconTime);
-
-// Initial call to set the badge text
-updateIconTime();
