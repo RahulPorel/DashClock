@@ -16,6 +16,8 @@
         "service_worker": "src/js/background.js"
     },
     "permissions": [
-        "alarms"
+        "alarms",
+        "storage",
+        "scripting"
     ]
 }

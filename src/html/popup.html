@@ -5,19 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clock</title>
     <link rel="stylesheet" href="/src/styles/index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="/src/styles/index.css" as="style" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&display=swap"
+      as="style"
+    />
+
+    <meta name="X-Content-Type-Options" content="nosniff" />
+    <meta name="X-Frame-Options" content="DENY" />
+    <meta name="X-XSS-Protection" content="1; mode=block" />
   </head>
   <body>
     <main>
       <h3 id="greeting"></h3>
       <h1 id="time"></h1>
+      <h1 id="time-with-24hr"></h1>
       <h4 id="date"></h4>
 
       <section class="toggle">
-        <button class="btn-am">AM</button>
-        <button class="btn-pm">PM</button>
+        <button class="btn-24Hrs">24 Hrs</button>
+        <button class="btn-12Hrs">12 Hrs</button>
       </section>
     </main>
 
-    <script defer src="/src/js/popup.js"></script>
+    <script src="/src/js/popup.js" defer></script>
   </body>
 </html>

@@ -6,7 +6,7 @@
 body {
   overflow-x: hidden;
   overflow-y: auto;
-  font-family: Lucida Grande, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 12px;
   color: white;
   background-color: #000000;
@@ -25,14 +25,21 @@ main {
   margin-top: 5px;
 }
 
-#time {
+#time,
+#time-with-24hr {
   margin-top: 5px;
   font-size: 34px;
 }
+#time-with-24hr {
+  display: none;
+}
 
 #date {
+  font-family: Lunasima, sans-serif;
   display: flex;
+  font-size: 15px;
   justify-content: center;
+  margin-bottom: 5px;
 }
 
 #greeting {
@@ -45,11 +52,11 @@ main {
   justify-content: center;
 }
 
-.btn-am,
-.btn-pm {
+.btn-24Hrs,
+.btn-12Hrs {
   cursor: pointer;
-  border-radius: 50%;
-  padding: 3px;
-  margin: 5px 0;
+  border-radius: 22px;
+  border: 0;
+  padding: 2.8px 8px;
+  margin: 5px 4px;
 }
-  
