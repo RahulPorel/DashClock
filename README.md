@@ -42,7 +42,7 @@ This extension requires the following permissions:
 
 ## Support
 
-If you encounter any issues or have suggestions for improvements, please [create an issue](https://github.com/yourusername/clock-extension/issues) on GitHub.
+If you encounter any issues or have suggestions for improvements, please [create an issue](https://github.com/RahulPorel/DashClock/issues) on GitHub.
 
 ## License
 
