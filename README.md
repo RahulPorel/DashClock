@@ -32,6 +32,14 @@ Since this extension is not currently available on the Chrome Web Store, you can
 - Click on the Clock extension icon in the Chrome toolbar to view the current time in the dash format.
 - The extension will update in real-time to show the accurate current time.
 
+## Preview
+
+#### 12 Hour
+![image](https://github.com/RahulPorel/DashClock/assets/98636266/b5004d38-77f0-4e13-b619-2018b039c1de)
+
+#### 24 Hour
+![image](https://github.com/RahulPorel/DashClock/assets/98636266/04794c35-acd1-49e9-a969-bd2dcc1e4569)
+
 ## Permissions
 
 This extension requires the following permissions:
