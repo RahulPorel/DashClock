@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: Lucida Grande, Arial, sans-serif;
+  font-size: 12px;
+  background-color: #fff;
+  min-height: 200px;
+  min-width: 300px;
+  user-select: none;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+#time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+}

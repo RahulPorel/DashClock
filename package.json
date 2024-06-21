@@ -1,0 +1,10 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Rahul Porel",
+  "license": "MIT",
+  "description": ""
+}

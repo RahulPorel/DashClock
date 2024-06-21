@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Clock",
+    "description": "View Current Time on ease",
+    "version": "1.0",
+    "action": {
+        "default_popup": "src/html/popup.html"
+    },
+    "icons": {
+        "16": "src/images/clock.png",
+        "32": "src/images/clock.png",
+        "48": "src/images/clock.png",
+        "128": "src/images/clock.png"
+    },
+    "background": {
+        "service_worker": "src/js/background.js"
+    },
+    "permissions": [
+        "alarms"
+    ]
+}
