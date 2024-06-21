@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Clock",
-    "description": "View Current Time on ease",
+    "description": "View the current time with ease, including a dash display.  ",
     "version": "1.0",
     "action": {
         "default_popup": "src/html/popup.html"
